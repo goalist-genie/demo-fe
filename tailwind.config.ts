@@ -11,13 +11,14 @@ const config: Config = {
       colors: {
         'main': "#1E4CC6",
         'secondary': "#5282FF",
-        'text': "#535353",
-      },
-      backgroundImage: {
-        'accent': "linear-gradient(0deg, #5282FF 0%, #5282FF 100%)",
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'secondary_light': "#D8E3FF66",
+        'ink-500': "#535353",
+        'gray': "#D8D8D8",
+        'modal': "rgba(0, 0, 0, 0.60)",
+        'green': "#31B998",
+        'ink': "#777",
+        'dark_green': "#168F72",
+        'light_green': "#B2F9E833",
       },
     },
   },
