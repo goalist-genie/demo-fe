@@ -33,7 +33,7 @@ export default function Signin() {
         <div className="flex flex-col gap-4">
           <input placeholder="Email" type="email" className="rounded-lg border border-gray p-4" value={email} onChange={(e) => setEmail(e.target.value)}/>
           <input placeholder="Password" type="password" className="rounded-lg border border-gray p-4" value={pw} onChange={(e) => setPw(e.target.value)}/>
-          <div className="flex items-center justify-center h-[77px] rounded-full bg-accent text-white text-2xl font-semibold cursor-pointer mt-6" onClick={() => handleSignin()}>Sign In</div>
+          <div className="flex items-center justify-center h-[77px] rounded-full bg-gradient-to-r from-[#1E4CC6] to-[#5282FF] text-white text-2xl font-semibold cursor-pointer mt-6" onClick={() => handleSignin()}>Sign In</div>
         </div>
         <div className="flex flex-col gap-6">
           <div className="text-center underline cursor-pointer">Forgot Password?</div>

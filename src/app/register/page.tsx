@@ -26,7 +26,7 @@ export default function Register() {
             <input placeholder="Email" type="email" className="rounded-lg border border-gray p-4" value={email} onChange={(e) => setEmail(e.target.value)}/>
             <input placeholder="Password" type="password" className="rounded-lg border border-gray p-4" value={pw} onChange={(e) => setPw(e.target.value)}/>
             <input placeholder="Confirm Password" type="password" className="rounded-lg border border-gray p-4" value={pw} onChange={(e) => setPw(e.target.value)}/>
-            <div className="flex items-center justify-center h-[77px] rounded-full bg-accent text-white text-2xl font-semibold cursor-pointer mt-6" onClick={() => handleRegister()}>Sign Up</div>
+            <div className="flex items-center justify-center h-[77px] rounded-full bg-gradient-to-r from-[#1E4CC6] to-[#5282FF] text-white text-2xl font-semibold cursor-pointer mt-6" onClick={() => handleRegister()}>Sign Up</div>
           </div>
           <div className="text-center">Already have an account? <a href="/signin" className="text-secondary font-semibold">Sign In</a></div>
         </div>
@@ -38,7 +38,7 @@ export default function Register() {
           <div className="flex flex-col gap-4">
             <div className="text-center text-secondary">Thank you for signing up!</div>
             <div className="text-center">Sign in now and get started!</div>
-            <Link href="/signin" className="flex items-center justify-center h-[77px] rounded-full bg-accent text-white text-2xl font-semibold cursor-pointer">Sign In</Link>
+            <Link href="/signin" className="flex items-center justify-center h-[77px] rounded-full bg-gradient-to-r from-[#1E4CC6] to-[#5282FF] text-white text-2xl font-semibold cursor-pointer">Sign In</Link>
           </div>
           <div className="text-center">Already have an account? <a href="/signin" className="text-secondary font-semibold">Sign In</a></div>
         </div>
